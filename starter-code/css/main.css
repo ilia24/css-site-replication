@@ -8,3 +8,9 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.headspace {
+  height: 280px;
+  width: 100%;
+  background: linear-gradient(rgb(94, 125, 157), rgb(63, 94, 129));
+}
