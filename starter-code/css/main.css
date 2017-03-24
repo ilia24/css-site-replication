@@ -18,7 +18,7 @@ body {
 }
 
 .outercontentwrap {
-  width: 75%;
+  width: 55%;
   height: 600px;
   margin: 0px auto;
   position: relative;
@@ -48,7 +48,7 @@ margin-left:
   padding: 10px 15px 10px 0px;
   color: white;
   background: linear-gradient(rgb(118, 146, 174), rgb(80, 114, 149));
-  border: 1px solid black;
+  border: 1px solid #06365f;
   border-radius: 4px;
 }
 .loginbutton {
@@ -63,5 +63,24 @@ margin-left:
   left: 11%;
 }
 .txtframe {
-  width: 504px;
+  width: 427px;
+  position: absolute;
+  top: 18%;
+  left: 44%;
+}
+.txtframe h1 {
+  width: 330px;
+}
+.txtframe p {
+  font-size: 17px;
+}
+.txtframe span {
+  font-weight: 400;
+}
+.appimage {
+  margin-left: 42px;
+  margin-top: 111px;
+}
+.appimage .android {
+  margin-left: 10px;
 }
