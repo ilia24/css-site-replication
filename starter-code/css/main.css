@@ -18,7 +18,7 @@ body {
 }
 
 .outercontentwrap {
-  width: 55%;
+  width: 927px;
   height: 600px;
   margin: 0px auto;
   position: relative;
@@ -40,11 +40,11 @@ margin-left:
 
 .loginbut {
   display: inline-block;
-  width: 102px;
-  font-size: 20px;
+  width: 92px;
+  height: 23px;
   font-weight: 400;
   text-align: right;
-  font-size: 18px;
+  font-size: 17px;
   padding: 10px 15px 10px 0px;
   color: white;
   background: linear-gradient(rgb(118, 146, 174), rgb(80, 114, 149));
@@ -69,7 +69,10 @@ margin-left:
   left: 44%;
 }
 .txtframe h1 {
-  width: 330px;
+  width: 292px;
+  color: #06365f;
+  font-size: 28px;
+  line-height: 30px;
 }
 .txtframe p {
   font-size: 17px;
@@ -79,8 +82,29 @@ margin-left:
 }
 .appimage {
   margin-left: 42px;
-  margin-top: 111px;
+  margin-top: 83px;
 }
 .appimage .android {
   margin-left: 10px;
+}
+
+.appimage img {
+  height: 54px;
+}
+
+ul {
+  list-style: none;
+  margin: 48px 0px 0px 110px;
+  display: inline-block;
+}
+ul li {
+  display: inline-block;
+  margin: 0px 10px;
+  color: rgb(94, 125, 157);
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.copyr {
+  color: grey;
 }
