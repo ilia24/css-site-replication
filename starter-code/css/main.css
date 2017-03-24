@@ -7,10 +7,27 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  width: 100%;
 }
 
 .headspace {
   height: 280px;
   width: 100%;
   background: linear-gradient(rgb(94, 125, 157), rgb(63, 94, 129));
+}
+
+.outercontentwrap {
+  width: 75%;
+  height: 600px;
+  margin: 0px auto;
+  background-color: green;
+}
+
+.phone {
+  float: left;
+  width: 35%;
+}
+.innerwrap {
+  float: left;
+  width: 65%;
 }
